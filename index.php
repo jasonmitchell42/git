@@ -2,11 +2,13 @@
 <html>
 <head>
     <link rel="stylesheet" href="bootstrap\bootstrap.css">
+    <link rel="stylesheet" href="styles.min.css">
 </head>
 <body>
 <div class="container">
     <h1>Title<span class="fab fa-font-awesome"></span></h1>
     <p>This is a paragraph</p>
+    <h5><a href="carousel.php">Bootstrap Carousel</a></h5>
 </div>
 <div class="container">
     <div class="row">
@@ -23,7 +25,9 @@
             </div>
         </div>
         <div class="col-12 col-md-6">
-            <form>
+            <button type="button" class="btn-primary btn"  data-toggle="collapse" data-target="#myCollapse" aria-expanded="false" aria-controls="myCollapse">Show my Form</button>
+            <div id="myCollapse" class="collapse">
+            <form id="myForm" action="/git/myform.php">
                 <div class="form-group">
                     <label for="email">Email Address</label>
                     <input type="email" id="email" aria-describedby="emailHelp" placeholder="Enter Email" class="form-control form-control-lg">
@@ -64,6 +68,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            </div>
         </div>
     </div>
 </div>
@@ -75,8 +80,6 @@
 
 
 <script src="js/fontawesome-all.js"></script>
-<script>
-    $('.carousel').find('.carousel-item:first').addClass('active');
-</script>
+<script src="script.js"></script>
 </body>
 </html>

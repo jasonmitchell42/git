@@ -1,0 +1,28 @@
+$colors: (
+        #ff4136,
+        #0074d9,
+        #ffdc00,
+        #ff851b,
+        #296100
+);
+
+.cube {
+  width: 10rem;
+  height: 10rem;
+  .timer {
+
+  }
+}
+
+$i: 0;
+
+.carousel-item {
+  @each $color in $colors {
+    $i: index($colors, $color);
+    .c-#{$i} {
+      background-color: $color !important;
+      @extend .cube;
+    }
+  }
+}
+
