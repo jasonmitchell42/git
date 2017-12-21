@@ -9,6 +9,8 @@
     <h1>Title<span class="fab fa-font-awesome"></span></h1>
     <p>This is a paragraph</p>
     <h5><a href="carousel.php">Bootstrap Carousel</a></h5>
+    <h5><a href="youtube.php">HTML5 Youtube</a></h5>
+    <h5><a href="form.php">FORM</a></h5>
 </div>
 <div class="container">
     <div class="row">
@@ -27,55 +29,16 @@
         <div class="col-12 col-md-6">
             <button type="button" class="btn-primary btn"  data-toggle="collapse" data-target="#myCollapse" aria-expanded="false" aria-controls="myCollapse">Show my Form</button>
             <div id="myCollapse" class="collapse">
-            <form id="myForm" action="/git/myform.php">
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" aria-describedby="emailHelp" placeholder="Enter Email" class="form-control form-control-lg">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="select1">Example Select</label>
-                    <select name="select1" id="select1" class="form-control">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="select2">Example multiple select</label>
-                    <select name="select2" id="select2" class="form-control" multiple>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" class="form-control">
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input">
-                        Check Me Out
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+
             </div>
         </div>
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js" integrity="sha256-4EryiRZ08ygMik1Ki80uCcSf/+uelHarV2KQPthf96A=" crossorigin="anonymous"></script>
 <!--<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>-->
 
 

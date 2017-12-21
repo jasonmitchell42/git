@@ -1,3 +1,5 @@
+@import './bootstrap/bootstrap';
+
 $colors: (
         #ff4136,
         #0074d9,
@@ -26,3 +28,21 @@ $i: 0;
   }
 }
 
+.btn-group {
+  @extend .w-100;
+  button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+  }
+  ul {
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      width: 50%;
+    }
+
+  }
+}
